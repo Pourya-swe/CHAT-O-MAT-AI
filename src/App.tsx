@@ -6,8 +6,6 @@ import { ThemeProvider } from "./context/ThemeProvider";
 import { ChatProvider } from "./context/ChatProvider";
 
 function App() {
-  // const [chatInitaited, setChatInitiated] = useState(true);
-
   return (
     <ChatProvider>
       <ThemeProvider>

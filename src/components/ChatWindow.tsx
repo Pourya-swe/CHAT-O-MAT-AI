@@ -2,10 +2,6 @@ import useChat from "../hooks/useChat";
 import ChatBox from "./ChatBox";
 import EmptyStateMessage from "./EmptyStateMessage";
 
-// interface ChatWindowProps {
-//   chatInitiated: boolean;
-// }
-
 function ChatWindow() {
   const { messages } = useChat();
 

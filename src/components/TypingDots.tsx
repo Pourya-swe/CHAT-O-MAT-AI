@@ -1,6 +1,6 @@
 function TypingDots() {
   return (
-    <div className="flex justify-end text-sm text-muted">
+    <div className="flex justify-start text-sm text-muted">
       <span className="inline-flex items-center gap-1">
         <span className="animate-pulseDot inline-block w-2 h-2 rounded-full bg-muted"></span>
         <span
